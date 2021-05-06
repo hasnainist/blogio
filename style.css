@@ -9,7 +9,15 @@ nav ul a:hover{
 
     font-weight:600;
     background-color:grey;
-
     
 }
 
+.myclass{
+ background-image: url('img/login.jfif');
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
