@@ -1,0 +1,15 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul a:hover{
+
+    font-weight:600;
+    background-color:grey;
+    border-radius: 5px;
+    
+}
+
