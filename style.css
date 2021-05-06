@@ -13,7 +13,7 @@ nav ul a:hover{
 }
 
 .myclass{
- background-image: url('img/login.jfif');
+ background-image: url('login.jfif');
 display: flex;
 flex-direction: column;
 justify-content: center;
