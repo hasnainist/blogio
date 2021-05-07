@@ -1,0 +1,30 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul a:hover{
+
+    font-size: 1.1rem;
+    font-weight:500;
+    
+    
+}
+
+.myclass{
+ background-image:url(https://source.unsplash.com/1920x750/?nostalgia);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.active{
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
