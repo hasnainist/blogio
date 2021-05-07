@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="fontawesome-free-5.6.3-web/css/all.css">
+
+
+    <title>BloGio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+        <div class="container-fluid mx-3">
+            <a class="navbar-brand" style="font-weight: 600; color:white" href="#">BloGio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item" style="background-clip: content-box;">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <div class="d-flex " style="padding-right: 15px;">
+                    <button type="button" style="border-radius:20px;" class="btn btn-outline-light"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+                </div>
+
+                </form>
+            </div>
+    </nav>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        style="border-color: black; opacity: 0.95;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Enter any valid email.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+
+                        <select name="" class="form-control mb-3" id="">
+                            <option value="">Select Country</option>
+                            <option value="">Pakistan</option>
+                            <option value="">Turkey</option>
+                            <option value="">Singapore</option>
+                        </select>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Get email notifications.</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" style="border-radius: 22px;">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" style="border-bottom: 2px solid gray;">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/1920x750/?text
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?text
+                " class="d-md-none d-lg-none  d-block w-100  img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?aesthetic
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?aesthetic
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?retro
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?retro
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?history
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?history
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?face
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?face
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?kite,parachute
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?kite,parachute
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1920x750/?ships
+                " class="d-md-block d-none w-100 img-fluid" alt="...">
+                    <img src="https://source.unsplash.com/480x600/?ships
+                " class="d-md-none d-lg-none  d-block w-100 img-fluid" alt="...">
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center py-4">
+                        
+                            <h1 style="font-weight: 600;">Contact Us</h1>
+                            <p > Follow us on these social platforms to stay connected and informed about upcoming events and get a chance to get your articles featured on this website.</p>
+                            <a href=""><i class="fab fa-instagram fa-2x mx-3 my-3"  style="color: black;" ></i></a>
+                            <a href=""><i class="fab fa-facebook-f fa-2x mx-3 my-3"  style="color: black;"></i></a>
+                            <a href=""><i class="fab fa-twitter fa-2x my-3 mx-3"  style="color: black;" ></i></a>
+
+                       
+                    </div>
+                    <div class="col-md-6 text-center py-4">
+                        <h1 style="font-weight: 600;">
+                            Privacy Policy
+                        </h1>
+                        
+                        <p >This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>
+                        <a href="" class="btn btn-outline-dark " style="border-radius: 25px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Read More</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content" style="opacity: 0.95;">
+        <div class="modal-header" style="background-color: black;">
+          <h5 class="modal-title" id="staticBackdropLabel" style="color: white;">BloGio Privacy Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>We collect information to provide better services to all our users — from figuring out basic stuff like which language you speak, to more complex things like which ads you’ll find most useful, the people who matter most to you online, or which YouTube videos you might like. The information Google collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.
+
+            When you’re not signed in to a BloGio Account, we store the information we collect with unique identifiers tied to the browser, application, or device you’re using. This helps us do things like maintain your language preferences across browsing sessions.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal" style="border-radius: 25px;">Close</button>
+          <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal" style="border-radius: 25px;">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+            <div class="container-fluid" style="background-color:black ; border-top: 2px solid gray;">
+
+                <div class="d-flex justify-content-center">
+                    <p style="padding-top: 5px; font-size: 0.7rem; color: white">copyright © 2021 all rights reserved
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
